@@ -1,0 +1,132 @@
+# Bundler
+/.bundle
+/vendor/bundle
+
+# Database Config
+config/database.yml
+
+#solr
+config/sunspot.yml
+solr/**/*
+
+# SQLite database
+/db/*.sqlite3
+
+# Logfiles and Tempfiles
+/log/*.log
+/tmp
+# Rails
+.bundle
+db/*.sqlite3
+db/*.sqlite3-journal
+*.log
+tmp
+tmp/**/*
+
+# Documentation
+doc/api
+doc/app
+.yardoc
+.yardopts
+coverage
+
+# Assets
+public/assets/*
+
+# Public Cache
+public/javascripts/cache
+public/stylesheets/cache
+
+# Vendor Cache
+vendor/cache
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+.AppleDouble
+.LSOverride
+#Icon # This ignores the app/assets/images/icons directory, and everything in it!
+#Icon?
+Desktop.ini
+ehthumbs.db
+Thumbs.db
+
+# NetBeans
+nbproject
+
+# Eclipse
+.project
+
+# Redcar
+.redcar
+
+# Rubinius
+*.rbc
+
+# Vim
+*.swp
+*.swo
+*.swm
+*.swn
+*.swl
+*.swk
+*.swe
+*.swf
+*.swg
+*.swh
+*.swi
+*.swj
+*.swk
+*.swc
+*.sw*
+# RubyMine
+.idea
+
+# E-texteditor
+.eprj
+
+# Dreamweaver
+_notes
+
+# Backup
+*~
+
+# Capybara Bug
+capybara-*html
+
+# Sass
+.sass-cache
+.sass-cache/*
+
+# RVM
+.rvmrc
+.rvmrc.*
+
+# Vendor/extensions
+vendor/extensions/**/spec/dummy
+
+# SimpleCov
+/coverage
+
+# Rails Best Practices
+rails_best_practices_output.html
+
+#rbenv config files
+.rbenv-gemsets
+.rbenv-version
+
+# Solr
+sunspot-solr.pid
+solr/development/
+solr/test/
+solr/pids/development/*
+
+# Logs
+log/*
+public/error_logs.txt
+
+# environment variables
+.env

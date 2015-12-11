@@ -1,0 +1,18 @@
+defaults: &defaults
+  adapter: mysql2
+  host: localhost
+  port: 5432
+  pool: 25
+  username: root
+  password: 
+
+development:
+  <<: *defaults
+  database: elearning_dev
+
+test: &test
+  <<: *defaults
+  database: elearning_test
+
+production:
+  uri: elearning_dev
