@@ -24,7 +24,7 @@ ActiveRecord::Schema.define(version: 20151211112042) do
     t.string   "gender",                 limit: 255
     t.string   "occupation",             limit: 255
     t.string   "street_address",         limit: 255
-    t.boolean  "activated",              limit: 1
+    t.boolean  "activated"
     t.string   "reset_password_token",   limit: 255
     t.datetime "reset_password_sent_at"
     t.datetime "remember_created_at"

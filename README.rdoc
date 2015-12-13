@@ -1,5 +1,3 @@
 == README
 
-bundle
-
-rake db:create
+Update Me
